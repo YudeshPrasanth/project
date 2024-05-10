@@ -1,0 +1,611 @@
+
+.indexbg{
+background: rgb(119,136,238);
+background: linear-gradient(90deg, rgb(128, 187, 239) 13%, rgb(46, 58, 90) 75%);
+width: 100%;
+height: 100vh;
+}
+/* nav contant */
+.nav_contant{
+    text-align: left;
+    margin-top: 200px;
+    color: white;
+    font-weight: 700;
+    margin-left: 130px;
+    font-size: 35px;
+}
+
+.nav_contant1{
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.nav_contant2{
+    text-align: left;
+    color: white;
+    margin-left: 130px;
+    margin-top: 10px;
+    
+}
+.nav_contant2 .cont_btn{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: orangered;  
+    color: white;
+}
+
+.nav_contant3{
+    text-align: left;
+    color: white;
+ 
+}
+.nav_contant3 .cont_btn1{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.nav_bg{
+    height: 700px;
+    width: 950px;
+    margin-top: 31px;
+    margin-left: 37px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav_contant {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .nav_contant1{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .nav_contant2{
+        text-align: center;
+        color: white;
+        margin-left: 0;
+        margin-top: 10px;
+        
+    }
+    .nav_contant2 .cont_btn{
+        font-weight: 400;
+        font-size: 16px;
+        background-color: rgb(249, 147, 52);  
+        color: white;
+        padding: 10px 15px 10px 15px;
+    }
+    
+    .nav_contant3{
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .nav_bg{
+        height:393px;
+        width: 410px;
+        margin-top: 0;
+        margin-left: -90px;
+        
+    }
+    
+}
+
+/* logo image */
+
+
+.logo_head2 {
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: center;
+    color: gray; 
+}
+
+
+.logo_img img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin-left: 100px; 
+}
+
+
+.col-sm-2 .logo02{
+    margin-top: -20px;
+} 
+
+.col-sm-2 .logo03{
+    margin-top: 10px;
+} 
+
+.col-sm-2 .logo05{
+    margin-top: -15px;
+} 
+
+@media only screen and (max-width: 600px) {
+
+    .logo_head2 {
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: center;
+        color: gray; 
+    }
+
+    .logo_img img {
+        max-width: 100%; 
+        height: auto; 
+        display: block;
+        margin-left:0px; 
+    }
+
+    .col-sm-2 .logo01{
+        margin-top: -70px;
+        justify-content: center;    
+    } 
+
+    .col-sm-2 .logo02{
+        margin-top: -180px;
+        margin-left:-10px;
+    
+    } 
+    
+    .col-sm-2 .logo03{
+        margin-top: -190px;
+        margin-left: 15px;
+    } 
+
+    .col-sm-2 .logo04{
+        margin-top: -100px;
+    } 
+
+    .col-sm-2 .logo05{
+        margin-top: -135px;
+    } 
+}
+
+/* fearture */
+
+.feature_head{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.feature_para{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .feature_head{
+        text-align: center;
+        font-size: 25px;
+        margin-top: -50px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .feature_para{
+        text-align: center;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+    }
+
+}
+
+/* advantage */
+
+.advatage_img{
+    width: 460px;
+    height: 700px;
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 200px 200px 0px 0px;
+}
+.adv_img01{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+
+}
+
+
+.advatage_head{
+    margin-left:200px;
+  
+}   
+.advatage_head01{
+    margin-bottom: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+.advatage_head02{
+    margin-left: 25px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+.advatage_head03{
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    
+}
+.advatage_head04{  
+    margin-left: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+.adv_heading{
+    font-size: 20px;
+    text-align: left;
+}
+.adv_paragraph{
+    font-size: 15px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .advatage_img{
+        width: 350px;
+        height: 500px;
+        margin-left:-22px;
+        margin-top: 25px;
+        border-radius: 200px 200px 0px 0px;
+
+    }
+
+    .advatage_head01{
+        margin-bottom: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    .advatage_head02{
+        margin-left: 0px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+    }
+    .advatage_head03{
+        margin-top: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        
+    }
+    .advatage_head04{  
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .advatage_head{
+        margin-left:0px;
+      
+    }   
+
+    .adv_heading{
+        font-size: 20px;
+        text-align: center;
+    }
+    .adv_paragraph{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .adv_img01{
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+}
+
+/* corosol picture */
+
+.main_corosal{
+ background-color: aliceblue;   
+}
+
+.cor_heading{
+ margin-top: 60px;
+ text-align: center;
+ font-size: 30px;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.cor_button{
+    height: 80px;
+    width: 1438px; 
+    text-align: center;
+    margin-left: 200px;
+}
+.col-md-3.cor_button01{
+    font-weight: 400;
+    margin-left: 105px; 
+    font-size: 18px;
+    margin-top: 20px;
+}
+.col-md-3.cor_button02{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.col-md-3.cor_button03{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.col-md-3.cor_button01:hover{
+    color: white;
+    background-color: orangered;
+    
+}
+.col-md-3.cor_button02:hover{
+    color: white;
+    background-color: orangered;
+}
+
+.col-md-3.cor_button03:hover{
+    color: white;
+    background-color: orangered;
+}
+.carous_image01{
+    height: 550px;
+    width: 1080px;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+.row .carous_images1{
+    height: 230px;
+    width: 350px;
+    margin-top:20px;
+    margin-left: 90px;
+}
+.row .carous_images2{
+    height: 230px;
+    margin-top:20px;
+    margin-left: 30px;
+    width: 350px;
+}
+.row .carous_images3{
+    height: 230px;
+    width: 350px;
+    margin-top:20px;
+    margin-left: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .cor_heading{
+        margin-top: 25px;
+        font-size: 25px;
+       }
+
+       .cor_button{
+        height: 38px;
+        width: 300px; 
+        margin-left: 0px;
+    }
+    .col-md-3.cor_button01{
+        font-weight: 400;
+        margin-left: 10px; 
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .col-md-3.cor_button02{
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 10px; 
+    }
+    .col-md-3.cor_button03{
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 10px; 
+    }
+
+    .col-md-3.cor_button01:hover{
+        color: white;
+        background-color: orangered;
+        
+    }
+    .col-md-3.cor_button02:hover{
+        color: white;
+        background-color: orangered;
+    }
+    
+    .col-md-3.cor_button03:hover{
+        color: white;
+        background-color: orangered;
+    }
+
+    .carous_image01{
+        height: 500px;
+        width: 1080px;
+        margin-left: 0px;
+        margin-top: 125px;
+    }
+    
+    .row .carous_images1{
+        height: 230px;
+        width: 350px;
+        margin-top:10px; 
+        margin-left: 0px;
+    }
+    .row .carous_images2{
+        height: 230px;
+        margin-top:10px;
+        margin-left:0px;
+        width: 350px;
+    }
+    .row .carous_images3{
+        height: 230px;
+        width: 350px;
+        margin-top:10px;
+        margin-left:0px;
+    }    
+
+}
+
+/* client */
+
+.client{
+    width: 620px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+.client_para{
+    margin-top: 280px;
+    margin-left: 250px;
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+.client_para02{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.client_head02{
+    margin-left: 250px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.client_head03{
+    margin-left: 250px;
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+.quot01{
+    margin-top: 260px;
+    margin-left: 170px;
+    font-size: 3rem;
+	position: absolute;
+	color: rgba(78, 194, 247, 0.2);
+}
+.quot02{
+    margin-left: 520px;
+    font-size: 3rem;
+	position: absolute;
+    color: rgba(78, 194, 247, 0.2);
+    height: 400px;
+    margin-top: -30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .client{
+        width: 380px;
+        height: 500px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .client_para{
+        margin-top: 20px;
+        margin-left: 60px;
+        color: rgb(0, 162, 255);
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .client_para02{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .client_head02{
+        margin-left: 20px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .client_head03{
+        margin-left: 20px;
+        color: rgb(0, 162, 255);
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .quot01{
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 3rem;
+        position: absolute;
+        color: rgba(78, 194, 247, 0.2);
+    }
+    .quot02{
+        margin-left: 210px;
+        font-size: 3rem;
+        position: absolute;
+        color: rgba(78, 194, 247, 0.2);
+        height: 400px;
+        margin-top: -30px;
+    }
+
+}
+
+/* our agent  2nd Carosol */
+
+
+.row .carous_images01{
+    height: 300px;
+    width: 350px;
+    margin-top:40px;
+    margin-left: 70px;
+}
+.row .carous_images02{
+    height: 300px;
+    width: 320px;
+    margin-top:20px;
+    margin-left:150px;
+}
+.row .carous_images03{
+    height: 300px;
+    width: 320px;
+    margin-top:13px;
+    margin-left:220px;
+} 
+.agent_para01{
+    font-size: 15px;
+    margin-left: 225px;
+    margin-top: -20px;
+}
+.agent_para02{
+    font-size: 15px;
+    margin-left: 280px;
+    margin-top: -5px;
+}
+.agent_para03{
+    font-size: 15px;
+    margin-left: 360px;
+    margin-top: -2px;
+}
+
+
+
+
